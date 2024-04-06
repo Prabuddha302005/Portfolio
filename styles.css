@@ -96,6 +96,27 @@ a{
     
 }
 
+@media (max-width: 400px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        padding: 10px 0;
+    }
+
+    .flex {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .svg img {
+        margin-left: 0;
+    }
+}
+
+
 /* Skills section css */
 .images{
     width: 20%;
