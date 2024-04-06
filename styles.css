@@ -95,28 +95,54 @@ a{
     background-color: rgb(178, 28, 178);
     
 }
-
-@media (max-width: 400px) {
+@media only screen and (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
     }
 
     .navbar li {
         padding: 10px 0;
-    }
-
-    .flex {
-        width: 100%;
-        margin-left: 0;
         text-align: center;
     }
 
-    .svg img {
-        margin-left: 0;
+    .navbar img {
+        display: block;
+        margin: 10px auto;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .margin {
+        padding: 12px 0; /* Reduce top and bottom padding */
+    }
 
+    .flex {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center-align elements */
+    }
+
+    .intro {
+        text-align: center; /* Center-align text */
+    }
+
+    .downButton {
+        margin-top: 10px; /* Add space between buttons */
+    }
+
+    .svg img {
+        width: 80%; /* Adjust image width */
+        margin-top: 20px; /* Add space between image and text */
+    }
+}
+@media only screen and (max-width: 768px) {
+    .images {
+        flex-basis: 100%; /* Set skill items to full width on smaller screens */
+    }
+
+    .repoButton {
+        margin-top: 10px; /* Adjust margin for better spacing */
+    }
+}
 /* Skills section css */
 .images{
     width: 20%;
@@ -150,6 +176,7 @@ a{
     margin-top: 103px;
     margin-left: 25px;
     height: 350px;
+    
 }
 .left{
     
@@ -216,6 +243,7 @@ legend{
     width: 100%;
     border-radius: 12px;
     height: 600px;
+    max-width: 100%;
 }
 .myimage > img:hover{
     box-shadow: 5px 5px 20px rgb(252, 108, 252);
@@ -228,6 +256,12 @@ legend{
 .info > p{
     margin-top: 12px;
     
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        font-size: 16px; /* Decrease font size for better readability on smaller screens */
+    }
 }
 /* contact section css */
 .content{
@@ -265,4 +299,8 @@ form > input:hover{
     text-align: center;
     margin-top: 14px;
 }
-
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+}
