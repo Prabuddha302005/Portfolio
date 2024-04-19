@@ -95,54 +95,15 @@ a{
     background-color: rgb(178, 28, 178);
     
 }
-@media only screen and (max-width: 768px) {
-    .navbar ul {
-        flex-direction: column;
-    }
-
-    .navbar li {
-        padding: 10px 0;
-        text-align: center;
-    }
-
-    .navbar img {
-        display: block;
-        margin: 10px auto;
-    }
+.b1{
+    float: right;
+}
+.b1 > a> img{
+    width: 20px;
+    height: 50px;
+    margin-left: 12px;
 }
 
-@media only screen and (max-width: 768px) {
-    .margin {
-        padding: 12px 0; /* Reduce top and bottom padding */
-    }
-
-    .flex {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center-align elements */
-    }
-
-    .intro {
-        text-align: center; /* Center-align text */
-    }
-
-    .downButton {
-        margin-top: 10px; /* Add space between buttons */
-    }
-
-    .svg img {
-        width: 80%; /* Adjust image width */
-        margin-top: 20px; /* Add space between image and text */
-    }
-}
-@media only screen and (max-width: 768px) {
-    .images {
-        flex-basis: 100%; /* Set skill items to full width on smaller screens */
-    }
-
-    .repoButton {
-        margin-top: 10px; /* Adjust margin for better spacing */
-    }
-}
 /* Skills section css */
 .images{
     width: 20%;
@@ -153,6 +114,10 @@ a{
     border-radius: 8px;
     margin-left: 5%;
 }
+
+/* .middle{
+    margin-left: 150px;
+} */
 
 .images:hover{
     cursor: pointer;
@@ -167,6 +132,7 @@ a{
     margin-left: 70px;
     height: 200px;
 }
+
 .center{
     text-align: center;
 }
@@ -258,11 +224,6 @@ legend{
     
 }
 
-@media only screen and (max-width: 768px) {
-    .info {
-        font-size: 16px; /* Decrease font size for better readability on smaller screens */
-    }
-}
 /* contact section css */
 .content{
     margin-left: 23%;
@@ -299,8 +260,4 @@ form > input:hover{
     text-align: center;
     margin-top: 14px;
 }
-@media only screen and (max-width: 768px) {
-    .content {
-        max-width: 90%; /* Adjust max-width for smaller screens */
-    }
-}
+
