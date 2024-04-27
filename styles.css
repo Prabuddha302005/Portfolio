@@ -103,6 +103,11 @@ a{
     height: 50px;
     margin-left: 12px;
 }
+.b1 > img{
+    width: 20px;
+    height: 50px;
+    margin-left: 12px;
+}
 
 /* Skills section css */
 .images{
